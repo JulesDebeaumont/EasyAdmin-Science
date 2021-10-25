@@ -1,6 +1,6 @@
-#EasyAdmin Science
+# EasyAdmin Science
 
-### 0_Introduction
+### Introduction
 
 This is a practice repository where I look for specific way to use EasyAdmin.
 

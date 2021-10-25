@@ -80,6 +80,12 @@
             "php bin/console doctrine:database:create",
             "php bin/console doctrine:migration:migrate --no-interaction",
             "php bin/console doctrine:fixtures:load --no-interaction"
+        ],
+        "test" : [
+            "php bin/console doctrine:database:drop --force --env=test",
+            "php bin/console doctrine:schema:create --env=test",
+            "php bin/console doctrine:fixtures:load --no-interaction --env=test",
+            "php bin/phpunit tests"
         ]
     },
     "conflict": {

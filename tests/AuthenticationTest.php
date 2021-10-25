@@ -25,7 +25,9 @@ class AuthenticationTest extends WebTestCase
             'password' => 1234
         ]);
 
-        file_put_contents('my_responde.html', $client->getResponse()->getContent());
+        $this->assertResponseRedirects();
+        $client->followRedirect();
+
 
         $this->assertSelectorTextContains('body', 'Bienvenue dans le back-office de How Much!');
         

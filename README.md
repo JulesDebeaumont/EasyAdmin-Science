@@ -1,10 +1,7 @@
 # EasyAdmin Science
 
-This repository is a project for me to experience stuff with the bundle EasyAdmin.
-
-### Introduction
-
-This is a practice repository where I look for specific way to use EasyAdmin.
+This repository is a project to experience stuff with the bundle EasyAdmin.
+It also uses as a reference for "complexe" forms and filters in EasyAdmin.
 
 ### 1_Installation
 

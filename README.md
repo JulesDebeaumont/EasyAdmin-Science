@@ -1,5 +1,7 @@
 # EasyAdmin Science
 
+This repository is a project for me to experience stuff with the bundle EasyAdmin.
+
 ### Introduction
 
 This is a practice repository where I look for specific way to use EasyAdmin.
@@ -21,13 +23,13 @@ This is a practice repository where I look for specific way to use EasyAdmin.
 - In the .env.local:
 
 *These settings are suggestions, put whatever you want:*  
-User: `QuoteMachine`  
-Password: `iutinfo`
+User: `EasyAdminScience`  
+Password: `1234`
 
 - Once done, edit the .env.local you made
 - Make sure the database access looks like the following one:
 
-`DATABASE_URL="mysql://ProjetB:iutinfo@127.0.0.1:3306/ProjetB?serverVersion=5.7"`
+`DATABASE_URL="mysql://EasyAdminScience:1234@127.0.0.1:3306/EasyAdminScience?serverVersion=5.7"`
 
 *If using other Database (aka MariaDB, SQLite etc...), make sure to change the server version!*
 
